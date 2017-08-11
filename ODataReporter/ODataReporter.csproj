@@ -1,0 +1,931 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{383BF83D-9B17-438D-8C01-240BCB374E65}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ODataReporter</RootNamespace>
+    <AssemblyName>ODataReporter</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DRDBService.svc" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessoryStatu.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ActionLog.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Applications.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Membership.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Membership_backup.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Paths.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_PersonalizationAllUsers.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_PersonalizationPerUser.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Profile.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Roles.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_SchemaVersions.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Users.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_UsersInRoles.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_WebEvent_Events.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2014_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2014_04.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2014_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2014_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2014_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2014_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2014_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2015_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2015_02.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2015_03.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2015_04.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2015_05.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2015_06.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2015_07.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2015_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2015_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2015_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2015_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2015_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellCostFromWL_2016_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellFromEcare_2015_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2014_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2014_04.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2014_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2014_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2014_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2014_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2014_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2015_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2015_02.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2015_03.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2015_04.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2015_05.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2015_06.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2015_07.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2015_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2015_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2015_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2015_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2015_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BellUsageFromWL_2016_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Branch.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Building.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuildingDetail.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuildingsWithNoPID.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuildingsWithNoSID.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BulkDataEntry.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="City.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Country.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CRA.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Department.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DepartmentAgency.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Device.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devices_2015_07_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devices_2015_08_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devices_2015_09_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devices_2015_10_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devices_2015_11_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devices_2015_12_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devices_2016_01_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devices_2016_02_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devices_2016_02_05.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devices_2016_03_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devices_2016_04_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devices_2016_05_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devices_History.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceTypesFromBilling.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceTypesFromSurvey.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DialerStatu.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DRDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRDB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DRDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DRDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DRDB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="EAP_STATUS.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EAP_STATUS_2015_07_13.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EAP_STATUS_V2.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExemptionType.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HighUsageExemption.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HighUsageExemptionType.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HighUsageFast.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InterestType.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KeepChoice.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LandLineProvider.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LandLineType.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LineUsage.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Location.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_AB_BC.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_AB_BC_2014.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_AB_BC_2015.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_ALIANT.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_ALIANT_2014.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_ALIANT_2015_10_OUT.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_ALIANT_2015_10_OUT_B.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_DMS.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_DMS_2014.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_DMS_2015.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_EASTLINK.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_EASTLINK_2014.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_EASTLINK_2015.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_MTS.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_MTS_2014.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_MTS_2015.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_NWTel.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_NWTel_2014.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_Sasktel.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAT_Sasktel_2014.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OBM.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OBM_HISTORY.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OLD_Quarters.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PrimaryUse.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProtectedType.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Province.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Region.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrationsV2.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2014_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2014_04.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2014_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2014_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2014_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2014_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2014_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2015_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2015_02.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2015_03.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2015_04.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2015_05.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2015_06.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2015_07.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2015_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2015_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2015_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2015_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2015_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersCostFromWL_2016_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2014_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2014_04.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2014_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2014_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2014_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2014_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2014_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2015_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2015_02.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2015_03.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2015_04.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2015_05.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2015_06.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2015_07.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2015_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2015_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2015_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2015_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2015_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RogersUsageFromWL_2016_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DRDBService.svc.cs">
+      <DependentUpon>DRDBService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="IService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceProvider.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SoReason.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2014_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2014_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2014_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2014_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2014_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2015_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2015_02.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2015_03.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2015_04.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2015_05.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2015_06.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2015_07.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2015_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2015_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2015_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2015_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2015_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusCostFromWL_2016_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusEBOD_2014_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusEBOD_2014_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusEBOD_2014_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusEBOD_2014_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusEBOD_2014_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusEBOD_2015_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusEBOD_2015_02.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2014_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2014_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2014_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2014_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2014_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2015_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2015_02.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2015_03.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2015_04.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2015_05.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2015_06.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2015_07.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2015_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2015_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2015_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2015_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2015_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelusUsageFromWL_2016_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TenantType.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UnusedWL.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UnusedWL_2014_04.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UnusedWL_2014_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UnusedWL_2015_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UnusedWL_WP.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="USOC.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UsocType.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_Applications.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_MembershipUsers.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_Profiles.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_Roles.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_Users.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_UsersInRoles.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_WebPartState_Paths.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_WebPartState_Shared.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_WebPartState_User.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Wireless.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WirelessStatu.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2014_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2014_04.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2014_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2014_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2014_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2014_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2014_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2015_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2015_02.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2015_03.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2015_04.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2015_05.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2015_06.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2015_07.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2015_08.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2015_09.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2015_10.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2015_11.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2015_12.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WL_2016_01.cs">
+      <DependentUpon>DRDB.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="DRDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DRDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="DRDB.edmx.diagram">
+      <DependentUpon>DRDB.edmx</DependentUpon>
+    </Content>
+    <Content Include="packages.config" />
+    <Content Include="DRDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DRDB.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DRDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DRDB.cs</LastGenOutput>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55657</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55657/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

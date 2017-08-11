@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="27c762b1855645fcb4aad3d54f39608e" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="DRDBModel.AccessoryStatu" Width="1.5" PointX="11" PointY="87.125" />
+        <EntityTypeShape EntityType="DRDBModel.ActionLog" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.aspnet_Applications" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.aspnet_Membership" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DRDBModel.aspnet_Paths" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DRDBModel.aspnet_PersonalizationAllUsers" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.aspnet_PersonalizationPerUser" Width="1.5" PointX="4.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DRDBModel.aspnet_Profile" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.aspnet_Roles" Width="1.5" PointX="2.75" PointY="6.75" />
+        <EntityTypeShape EntityType="DRDBModel.aspnet_SchemaVersions" Width="1.5" PointX="6.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DRDBModel.aspnet_Users" Width="1.5" PointX="4.75" PointY="6.75" />
+        <EntityTypeShape EntityType="DRDBModel.aspnet_UsersInRoles" Width="1.5" PointX="6.75" PointY="6.75" />
+        <EntityTypeShape EntityType="DRDBModel.aspnet_WebEvent_Events" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL" Width="1.5" PointX="8.75" PointY="5.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2014_01" Width="1.5" PointX="7.5" PointY="147.625" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2014_04" Width="1.5" PointX="8" PointY="81.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2014_08" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2014_09" Width="1.5" PointX="10.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2014_10" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2014_11" Width="1.5" PointX="14.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL" Width="1.5" PointX="5.25" PointY="142.875" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2014_01" Width="1.5" PointX="5.25" PointY="152" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2014_04" Width="1.5" PointX="10.25" PointY="70" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2014_08" Width="1.5" PointX="2.75" PointY="10.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2014_09" Width="1.5" PointX="4.75" PointY="10.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2014_10" Width="1.5" PointX="2.75" PointY="15.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2014_11" Width="1.5" PointX="4.75" PointY="15.75" />
+        <EntityTypeShape EntityType="DRDBModel.Branch" Width="1.5" PointX="5.25" PointY="48" />
+        <EntityTypeShape EntityType="DRDBModel.BuildingDetail" Width="1.5" PointX="8.25" PointY="75.625" />
+        <EntityTypeShape EntityType="DRDBModel.Building" Width="1.5" PointX="3" PointY="50.375" />
+        <EntityTypeShape EntityType="DRDBModel.BulkDataEntry" Width="1.5" PointX="16.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.City" Width="1.5" PointX="5.25" PointY="28.125" />
+        <EntityTypeShape EntityType="DRDBModel.Country" Width="1.5" PointX="14" PointY="85.25" />
+        <EntityTypeShape EntityType="DRDBModel.CRA" Width="1.5" PointX="7.5" PointY="46.875" />
+        <EntityTypeShape EntityType="DRDBModel.DepartmentAgency" Width="1.5" PointX="5.25" PointY="172.125" />
+        <EntityTypeShape EntityType="DRDBModel.Department" Width="1.5" PointX="3" PointY="66.875" />
+        <EntityTypeShape EntityType="DRDBModel.Device" Width="1.5" PointX="5.25" PointY="71.5" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_History" Width="1.5" PointX="13.25" PointY="66.5" />
+        <EntityTypeShape EntityType="DRDBModel.DeviceTypesFromBilling" Width="1.5" PointX="14" PointY="57.375" />
+        <EntityTypeShape EntityType="DRDBModel.DeviceTypesFromBillingV2" Width="1.5" PointX="11" PointY="89.875" />
+        <EntityTypeShape EntityType="DRDBModel.DeviceTypesFromSurvey" Width="1.5" PointX="14" PointY="82.25" />
+        <EntityTypeShape EntityType="DRDBModel.DialerStatu" Width="1.5" PointX="14" PointY="88.375" />
+        <EntityTypeShape EntityType="DRDBModel.EAP_STATUS" Width="1.5" PointX="11" PointY="95.125" />
+        <EntityTypeShape EntityType="DRDBModel.EAP_STATUS_V2" Width="1.5" PointX="16.75" PointY="6.75" />
+        <EntityTypeShape EntityType="DRDBModel.ExemptionType" Width="1.5" PointX="5.25" PointY="37.75" />
+        <EntityTypeShape EntityType="DRDBModel.HighUsageExemption" Width="1.5" PointX="16.25" PointY="57.125" />
+        <EntityTypeShape EntityType="DRDBModel.HighUsageExemptionType" Width="1.5" PointX="14" PointY="52" />
+        <EntityTypeShape EntityType="DRDBModel.InterestType" Width="1.5" PointX="0.75" PointY="58.375" />
+        <EntityTypeShape EntityType="DRDBModel.KeepChoice" Width="1.5" PointX="11" PointY="92.375" />
+        <EntityTypeShape EntityType="DRDBModel.LandLineProvider" Width="1.5" PointX="14" PointY="93" />
+        <EntityTypeShape EntityType="DRDBModel.LandLineType" Width="1.5" PointX="14" PointY="90.75" />
+        <EntityTypeShape EntityType="DRDBModel.LineUsage" Width="1.5" PointX="11" PointY="84.375" />
+        <EntityTypeShape EntityType="DRDBModel.Location" Width="1.5" PointX="5.25" PointY="31.875" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_AB_BC" Width="1.5" PointX="16.75" PointY="9.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_AB_BC_2014" Width="1.5" PointX="16.75" PointY="15.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_AB_BC_2015" Width="1.5" PointX="18.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_ALIANT" Width="1.5" PointX="7.5" PointY="119.375" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_DMS" Width="1.5" PointX="18.75" PointY="6.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_DMS_2014" Width="1.5" PointX="10.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_DMS_2015" Width="1.5" PointX="18.75" PointY="12.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_EASTLINK" Width="1.5" PointX="12.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_MTS" Width="1.5" PointX="18.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_MTS_2014" Width="1.5" PointX="20.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_NWTel" Width="1.5" PointX="5.25" PointY="161.125" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_Sasktel" Width="1.5" PointX="2.75" PointY="20.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_Sasktel_2014" Width="1.5" PointX="4.75" PointY="20.75" />
+        <EntityTypeShape EntityType="DRDBModel.OLD_Quarters" Width="1.5" PointX="14" PointY="54.875" />
+        <EntityTypeShape EntityType="DRDBModel.Portfolio" Width="1.5" PointX="0.75" PointY="71.125" />
+        <EntityTypeShape EntityType="DRDBModel.PrimaryUse" Width="1.5" PointX="0.75" PointY="56" />
+        <EntityTypeShape EntityType="DRDBModel.ProtectedType" Width="1.5" PointX="18.5" PointY="70" />
+        <EntityTypeShape EntityType="DRDBModel.Province" Width="1.5" PointX="3" PointY="31.875" />
+        <EntityTypeShape EntityType="DRDBModel.Region" Width="1.5" PointX="5.25" PointY="35.25" />
+        <EntityTypeShape EntityType="DRDBModel.Registration" Width="1.5" PointX="16.25" PointY="62" />
+        <EntityTypeShape EntityType="DRDBModel.RegistrationsV2" Width="1.5" PointX="5.25" PointY="58.875" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL" Width="1.5" PointX="20.75" PointY="6.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2014_01" Width="1.5" PointX="11" PointY="46.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2014_04" Width="1.5" PointX="7.5" PointY="62.5" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2014_08" Width="1.5" PointX="20.75" PointY="19.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2014_09" Width="1.5" PointX="14.75" PointY="21.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2014_10" Width="1.5" PointX="22.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2014_11" Width="1.5" PointX="22.75" PointY="13.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL" Width="1.5" PointX="7.75" PointY="23.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2014_01" Width="1.5" PointX="13.25" PointY="61" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2014_04" Width="1.5" PointX="5.25" PointY="66.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2014_08" Width="1.5" PointX="24.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2014_09" Width="1.5" PointX="24.75" PointY="5.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2014_10" Width="1.5" PointX="9.75" PointY="24.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2014_11" Width="1.5" PointX="24.75" PointY="10.75" />
+        <EntityTypeShape EntityType="DRDBModel.ServiceProvider" Width="1.5" PointX="14" PointY="78.25" />
+        <EntityTypeShape EntityType="DRDBModel.SoReason" Width="1.5" PointX="11" PointY="74.625" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL" Width="1.5" PointX="11.75" PointY="24.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL" Width="1.5" PointX="24.75" PointY="15.75" />
+        <EntityTypeShape EntityType="DRDBModel.TenantType" Width="1.5" PointX="6" PointY="96" />
+        <EntityTypeShape EntityType="DRDBModel.UnusedWL_WP" Width="1.5" PointX="11.25" PointY="78.75" />
+        <EntityTypeShape EntityType="DRDBModel.USOC" Width="1.5" PointX="16.25" PointY="95.625" />
+        <EntityTypeShape EntityType="DRDBModel.UsocType" Width="1.5" PointX="14" PointY="95.375" />
+        <EntityTypeShape EntityType="DRDBModel.WirelessStatu" Width="1.5" PointX="9" PointY="99.125" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2014_01" Width="1.5" PointX="16.75" PointY="24.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2014_04" Width="1.5" PointX="5.25" PointY="165.375" />
+        <EntityTypeShape EntityType="DRDBModel.aspnet_Membership_backup" Width="1.5" PointX="24.75" PointY="24.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2014_12" Width="1.5" PointX="26.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2015_01" Width="1.5" PointX="26.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2015_02" Width="1.5" PointX="28.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2015_03" Width="1.5" PointX="16.75" PointY="28.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2015_04" Width="1.5" PointX="28.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2015_05" Width="1.5" PointX="30.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2015_06" Width="1.5" PointX="30.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2015_07" Width="1.5" PointX="22.75" PointY="30.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2015_08" Width="1.5" PointX="32.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2015_09" Width="1.5" PointX="32.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2015_10" Width="1.5" PointX="18.75" PointY="32.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2015_11" Width="1.5" PointX="34.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2015_12" Width="1.5" PointX="34.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2016_01" Width="1.5" PointX="36.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2016_02" Width="1.5" PointX="36.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2016_03" Width="1.5" PointX="24.75" PointY="36.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellCostFromWL_2016_04" Width="1.5" PointX="26.75" PointY="36.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellFromEcare_2015_12" Width="1.5" PointX="7.75" PointY="29.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2014_12" Width="1.5" PointX="0.75" PointY="25.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2015_01" Width="1.5" PointX="9.75" PointY="33.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2015_02" Width="1.5" PointX="11.75" PointY="33.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2015_03" Width="1.5" PointX="13.75" PointY="34.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2015_04" Width="1.5" PointX="0.75" PointY="35.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2015_05" Width="1.5" PointX="28.75" PointY="36.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2015_06" Width="1.5" PointX="30.75" PointY="36.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2015_07" Width="1.5" PointX="32.75" PointY="36.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2015_08" Width="1.5" PointX="34.75" PointY="36.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2015_09" Width="1.5" PointX="36.75" PointY="36.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2015_10" Width="1.5" PointX="38.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2015_11" Width="1.5" PointX="38.75" PointY="5.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2015_12" Width="1.5" PointX="9.75" PointY="38.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2016_01" Width="1.5" PointX="38.75" PointY="10.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2016_02" Width="1.5" PointX="38.75" PointY="15.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2016_03" Width="1.5" PointX="38.75" PointY="20.75" />
+        <EntityTypeShape EntityType="DRDBModel.BellUsageFromWL_2016_04" Width="1.5" PointX="38.75" PointY="25.75" />
+        <EntityTypeShape EntityType="DRDBModel.BuildingsWithNoPID" Width="1.5" PointX="38.75" PointY="30.75" />
+        <EntityTypeShape EntityType="DRDBModel.BuildingsWithNoSID" Width="1.5" PointX="40.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_2015_07_01" Width="1.5" PointX="13.75" PointY="39.75" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_2015_08_01" Width="1.5" PointX="0.75" PointY="40.75" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_2015_09_01" Width="1.5" PointX="40.75" PointY="15.75" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_2015_10_01" Width="1.5" PointX="40.75" PointY="23.75" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_2015_11_01" Width="1.5" PointX="40.75" PointY="31.75" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_2015_12_01" Width="1.5" PointX="40.75" PointY="40.75" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_2016_01_01" Width="1.5" PointX="28.75" PointY="41.75" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_2016_02_01" Width="1.5" PointX="30.75" PointY="41.75" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_2016_03_01" Width="1.5" PointX="32.75" PointY="41.75" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_2016_04_01" Width="1.5" PointX="34.75" PointY="41.75" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_2016_05_01" Width="1.5" PointX="42.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_2016_06_01" Width="1.5" PointX="42.75" PointY="10.75" />
+        <EntityTypeShape EntityType="DRDBModel.Devices_2016_06_07" Width="1.5" PointX="42.75" PointY="20.75" />
+        <EntityTypeShape EntityType="DRDBModel.EAP_STATUS_2015_07_13" Width="1.5" PointX="2.75" PointY="41.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_ALIANT_2014" Width="1.5" PointX="4.75" PointY="41.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_EASTLINK_2014" Width="1.5" PointX="6.75" PointY="41.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_EASTLINK_2015" Width="1.5" PointX="42.75" PointY="30.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_MTS_2015" Width="1.5" PointX="42.75" PointY="35.75" />
+        <EntityTypeShape EntityType="DRDBModel.NAT_NWTel_2014" Width="1.5" PointX="42.75" PointY="41.75" />
+        <EntityTypeShape EntityType="DRDBModel.OBM" Width="1.5" PointX="5.25" PointY="168.875" />
+        <EntityTypeShape EntityType="DRDBModel.OBM_2015_12" Width="1.5" PointX="44.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.OBM_HISTORY" Width="1.5" PointX="44.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2014_12" Width="1.5" PointX="44.75" PointY="8.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2015_01" Width="1.5" PointX="44.75" PointY="21.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2015_02" Width="1.5" PointX="44.75" PointY="34.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2015_03" Width="1.5" PointX="36.75" PointY="45.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2015_04" Width="1.5" PointX="46.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2015_05" Width="1.5" PointX="46.75" PointY="13.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2015_06" Width="1.5" PointX="46.75" PointY="26.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2015_07" Width="1.5" PointX="46.75" PointY="39.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2015_08" Width="1.5" PointX="48.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2015_09" Width="1.5" PointX="48.75" PointY="13.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2015_10" Width="1.5" PointX="20.75" PointY="48.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2015_11" Width="1.5" PointX="48.75" PointY="26.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2015_12" Width="1.5" PointX="48.75" PointY="39.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2016_01" Width="1.5" PointX="42.75" PointY="48.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2016_02" Width="1.5" PointX="38.75" PointY="49.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2016_03" Width="1.5" PointX="50.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersCostFromWL_2016_04" Width="1.5" PointX="50.75" PointY="13.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2014_12" Width="1.5" PointX="15.75" PointY="46.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2015_01" Width="1.5" PointX="17.75" PointY="50.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2015_02" Width="1.5" PointX="50.75" PointY="26.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2015_03" Width="1.5" PointX="50.75" PointY="31.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2015_04" Width="1.5" PointX="50.75" PointY="36.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2015_05" Width="1.5" PointX="50.75" PointY="41.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2015_06" Width="1.5" PointX="50.75" PointY="46.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2015_07" Width="1.5" PointX="28.75" PointY="51.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2015_08" Width="1.5" PointX="30.75" PointY="51.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2015_09" Width="1.5" PointX="32.75" PointY="51.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2015_10" Width="1.5" PointX="50.75" PointY="51.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2015_11" Width="1.5" PointX="52.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2015_12" Width="1.5" PointX="52.75" PointY="5.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2016_01" Width="1.5" PointX="5.75" PointY="52.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2016_02" Width="1.5" PointX="7.75" PointY="52.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2016_03" Width="1.5" PointX="52.75" PointY="10.75" />
+        <EntityTypeShape EntityType="DRDBModel.RogersUsageFromWL_2016_04" Width="1.5" PointX="52.75" PointY="15.75" />
+        <EntityTypeShape EntityType="DRDBModel.sysdiagram" Width="1.5" PointX="8.75" PointY="43.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2014_08" Width="1.5" PointX="52.75" PointY="20.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2014_09" Width="1.5" PointX="52.75" PointY="29.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2014_10" Width="1.5" PointX="52.75" PointY="38.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2014_11" Width="1.5" PointX="44.75" PointY="52.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2014_12" Width="1.5" PointX="46.75" PointY="52.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2015_01" Width="1.5" PointX="52.75" PointY="47.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2015_02" Width="1.5" PointX="54.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2015_03" Width="1.5" PointX="54.75" PointY="9.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2015_04" Width="1.5" PointX="54.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2015_05" Width="1.5" PointX="22.75" PointY="54.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2015_06" Width="1.5" PointX="24.75" PointY="54.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2015_07" Width="1.5" PointX="54.75" PointY="27.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2015_08" Width="1.5" PointX="54.75" PointY="36.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2015_09" Width="1.5" PointX="54.75" PointY="45.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2015_10" Width="1.5" PointX="54.75" PointY="54.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2015_11" Width="1.5" PointX="56.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2015_12" Width="1.5" PointX="56.75" PointY="9.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2016_01" Width="1.5" PointX="56.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2016_02" Width="1.5" PointX="26.75" PointY="56.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2016_03" Width="1.5" PointX="56.75" PointY="27.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusCostFromWL_2016_04" Width="1.5" PointX="28.75" PointY="56.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusEBOD_2014_08" Width="1.5" PointX="10.75" PointY="43.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusEBOD_2014_09" Width="1.5" PointX="30.75" PointY="56.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusEBOD_2014_10" Width="1.5" PointX="32.75" PointY="56.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusEBOD_2014_11" Width="1.5" PointX="56.75" PointY="36.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusEBOD_2014_12" Width="1.5" PointX="56.75" PointY="39.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusEBOD_2015_01" Width="1.5" PointX="56.75" PointY="42.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusEBOD_2015_02" Width="1.5" PointX="56.75" PointY="45.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2014_08" Width="1.5" PointX="56.75" PointY="48.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2014_09" Width="1.5" PointX="48.75" PointY="56.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2014_10" Width="1.5" PointX="50.75" PointY="56.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2014_11" Width="1.5" PointX="56.75" PointY="57.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2014_12" Width="1.5" PointX="58.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2015_01" Width="1.5" PointX="58.75" PointY="9.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2015_02" Width="1.5" PointX="58.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2015_03" Width="1.5" PointX="58.75" PointY="27.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2015_04" Width="1.5" PointX="34.75" PointY="58.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2015_05" Width="1.5" PointX="58.75" PointY="36.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2015_06" Width="1.5" PointX="58.75" PointY="45.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2015_07" Width="1.5" PointX="58.75" PointY="54.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2015_08" Width="1.5" PointX="30.75" PointY="59.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2015_09" Width="1.5" PointX="60.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2015_10" Width="1.5" PointX="60.75" PointY="9.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2015_11" Width="1.5" PointX="60.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2015_12" Width="1.5" PointX="60.75" PointY="27.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2016_01" Width="1.5" PointX="60.75" PointY="36.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2016_02" Width="1.5" PointX="60.75" PointY="45.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2016_03" Width="1.5" PointX="60.75" PointY="54.75" />
+        <EntityTypeShape EntityType="DRDBModel.TelusUsageFromWL_2016_04" Width="1.5" PointX="40.75" PointY="61.75" />
+        <EntityTypeShape EntityType="DRDBModel.UnusedWL" Width="1.5" PointX="10.25" PointY="60.125" />
+        <EntityTypeShape EntityType="DRDBModel.UnusedWL_2014_04" Width="1.5" PointX="18.75" PointY="61.75" />
+        <EntityTypeShape EntityType="DRDBModel.UnusedWL_2014_11" Width="1.5" PointX="42.75" PointY="61.75" />
+        <EntityTypeShape EntityType="DRDBModel.UnusedWL_2015_11" Width="1.5" PointX="44.75" PointY="61.75" />
+        <EntityTypeShape EntityType="DRDBModel.vw_aspnet_Applications" Width="1.5" PointX="62.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.vw_aspnet_MembershipUsers" Width="1.5" PointX="62.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DRDBModel.vw_aspnet_Profiles" Width="1.5" PointX="7.75" PointY="57.75" />
+        <EntityTypeShape EntityType="DRDBModel.vw_aspnet_Roles" Width="1.5" PointX="62.75" PointY="10.75" />
+        <EntityTypeShape EntityType="DRDBModel.vw_aspnet_Users" Width="1.5" PointX="62.75" PointY="13.75" />
+        <EntityTypeShape EntityType="DRDBModel.vw_aspnet_UsersInRoles" Width="1.5" PointX="2.75" PointY="45.75" />
+        <EntityTypeShape EntityType="DRDBModel.vw_aspnet_WebPartState_Paths" Width="1.5" PointX="62.75" PointY="17.75" />
+        <EntityTypeShape EntityType="DRDBModel.vw_aspnet_WebPartState_Shared" Width="1.5" PointX="62.75" PointY="20.75" />
+        <EntityTypeShape EntityType="DRDBModel.vw_aspnet_WebPartState_User" Width="1.5" PointX="62.75" PointY="23.75" />
+        <EntityTypeShape EntityType="DRDBModel.Wireless" Width="1.5" PointX="10.25" PointY="65.375" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2014_08" Width="1.5" PointX="62.75" PointY="26.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2014_09" Width="1.5" PointX="62.75" PointY="30.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2014_10" Width="1.5" PointX="62.75" PointY="34.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2014_11" Width="1.5" PointX="36.75" PointY="62.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2014_12" Width="1.5" PointX="62.75" PointY="38.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2015_01" Width="1.5" PointX="62.75" PointY="42.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2015_02" Width="1.5" PointX="62.75" PointY="46.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2015_03" Width="1.5" PointX="62.75" PointY="50.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2015_04" Width="1.5" PointX="62.75" PointY="54.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2015_05" Width="1.5" PointX="62.75" PointY="58.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2015_06" Width="1.5" PointX="62.75" PointY="62.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2015_07" Width="1.5" PointX="20.75" PointY="63.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2015_08" Width="1.5" PointX="22.75" PointY="63.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2015_09" Width="1.5" PointX="52.75" PointY="63.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2015_10" Width="1.5" PointX="58.75" PointY="63.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2015_11" Width="1.5" PointX="64.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2015_12" Width="1.5" PointX="64.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2016_01" Width="1.5" PointX="64.75" PointY="8.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2016_02" Width="1.5" PointX="64.75" PointY="12.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2016_03" Width="1.5" PointX="64.75" PointY="16.75" />
+        <EntityTypeShape EntityType="DRDBModel.WL_2016_04" Width="1.5" PointX="64.75" PointY="20.75" />
+        <EntityTypeShape EntityType="DRDBModel.HighUsageFast" Width="1.5" PointX="64.75" PointY="24.75" />
+        <EntityTypeShape EntityType="DRDBModel.QuickDeviceData" Width="1.5" PointX="64.75" PointY="28.75" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_AccessoryStatus" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_History_AccessoryStatus" />
+        <AssociationConnector Association="DRDBModel.FK_BellCostFromWL_JAN_BellUsageFromWL_JAN" />
+        <AssociationConnector Association="DRDBModel.FK_BellUsageFromWL_APRIL_BellCostFromWL_APRIL" />
+        <AssociationConnector Association="DRDBModel.FK_BellUsageFromWL_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_BellUsageFromWL_JAN_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_BellUsageFromWL_APRIL_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_Branch_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_CRA_Branches" />
+        <AssociationConnector Association="DRDBModel.FK_BuildingDetails_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_BuildingDetails_TenantTypes" />
+        <AssociationConnector Association="DRDBModel.FK_BuildingDetails_TenantTypes1" />
+        <AssociationConnector Association="DRDBModel.FK_Buildings_Countries" />
+        <AssociationConnector Association="DRDBModel.FK_Buildings_InterestType" />
+        <AssociationConnector Association="DRDBModel.FK_Buildings_PrimaryUse" />
+        <AssociationConnector Association="DRDBModel.FK_RegistrationsV2_RegistrationsV2" />
+        <AssociationConnector Association="DRDBModel.FK_Provinces_PROV_CD" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_Countries" />
+        <AssociationConnector Association="DRDBModel.FK_RegistrationsV2_Countries" />
+        <AssociationConnector Association="DRDBModel.FK_CRA_ExemptionTypes" />
+        <AssociationConnector Association="DRDBModel.FK_CRA_Locations" />
+        <AssociationConnector Association="DRDBModel.FK_CRA_Regions" />
+        <AssociationConnector Association="DRDBModel.FK_CRA_Registrations" />
+        <AssociationConnector Association="DRDBModel.FK_ALIANT_DepartmentAgencies" />
+        <AssociationConnector Association="DRDBModel.FK_DepartmentAgencies_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_ALIANT_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_Departments_Portfolio" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_Departments2" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_History_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_History_Departments1" />
+        <AssociationConnector Association="DRDBModel.FK_NWTel_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_OBM_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_Departments1" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_Departments2" />
+        <AssociationConnector Association="DRDBModel.FK_RegistrationsV2_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_RogersUsageFromWL_APRIL_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_RogersUsageFromWL_JAN_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_UnusedWL_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_UnusedWL_WP_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_Wireless_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_WL_APRIL_Departments" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_DeviceTypesFromBillingV2" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_EAP_STATUS" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_ExemptionTypes" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_KeepChoices" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_LineUsages" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_Provinces" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_ServiceProviders" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_SoReasons" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_UsocTypes" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_History_DeviceTypesFromBillingV2" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_History_EAP_STATUS" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_History_ExemptionTypes" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_History_KeepChoices" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_History_LineUsages" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_History_Provinces" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_History_ServiceProviders" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_History_SoReasons" />
+        <AssociationConnector Association="DRDBModel.FK_Devices_History_UsocTypes" />
+        <AssociationConnector Association="DRDBModel.FK_HighUsageExemptions_WirelessTypes" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_WirelessTypes1" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_WirelessTypes2" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_WirelessTypes3" />
+        <AssociationConnector Association="DRDBModel.FK_UnusedWL_WirelessTypes" />
+        <AssociationConnector Association="DRDBModel.FK_UnusedWL_WP_WirelessTypes" />
+        <AssociationConnector Association="DRDBModel.FK_Wireless_WirelessTypes" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_DeviceTypes1" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_DeviceTypes2" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_DeviceTypes3" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_DialerStatus" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_ExemptionTypes" />
+        <AssociationConnector Association="DRDBModel.FK_HighUsageExemptions_HighUsageExemptionTypes" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_LandLineProvider" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_LandLineTypes" />
+        <AssociationConnector Association="DRDBModel.FK_Location_Provinces" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_Quarters" />
+        <AssociationConnector Association="DRDBModel.FK_Exceptions_Registrations" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_Registrations" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_ServiceProviders" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_ServiceProviders1" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_ServiceProviders2" />
+        <AssociationConnector Association="DRDBModel.FK_Registrations_ServiceProviders3" />
+        <AssociationConnector Association="DRDBModel.FK_RogersUsageFromWL_JAN_RogersCostFromWL_JAN" />
+        <AssociationConnector Association="DRDBModel.FK_RogersCostFromWL_APRIL_RogersUsageFromWL_APRIL" />
+        <AssociationConnector Association="DRDBModel.FK_UnusedWL_ServiceProviders" />
+        <AssociationConnector Association="DRDBModel.FK_UnusedWL_WP_ServiceProviders" />
+        <AssociationConnector Association="DRDBModel.FK_Wireless_ServiceProviders" />
+        <AssociationConnector Association="DRDBModel.FK_UnusedWL_WP_WirelessStatus" />
+        <AssociationConnector Association="DRDBModel.FK_USOC_USOC" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

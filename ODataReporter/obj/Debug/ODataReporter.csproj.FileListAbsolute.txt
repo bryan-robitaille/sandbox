@@ -1,0 +1,10 @@
+C:\Users\robitaib\Documents\Source\Repos\ASP.Net_Forms_Sandbox\ODataReporter\bin\ODataReporter.dll.config
+C:\Users\robitaib\Documents\Source\Repos\ASP.Net_Forms_Sandbox\ODataReporter\bin\ODataReporter.dll
+C:\Users\robitaib\Documents\Source\Repos\ASP.Net_Forms_Sandbox\ODataReporter\bin\ODataReporter.pdb
+C:\Users\robitaib\Documents\Source\Repos\ASP.Net_Forms_Sandbox\ODataReporter\bin\EntityFramework.dll
+C:\Users\robitaib\Documents\Source\Repos\ASP.Net_Forms_Sandbox\ODataReporter\bin\EntityFramework.SqlServer.dll
+C:\Users\robitaib\Documents\Source\Repos\ASP.Net_Forms_Sandbox\ODataReporter\bin\EntityFramework.xml
+C:\Users\robitaib\Documents\Source\Repos\ASP.Net_Forms_Sandbox\ODataReporter\bin\EntityFramework.SqlServer.xml
+C:\Users\robitaib\Documents\Source\Repos\ASP.Net_Forms_Sandbox\ODataReporter\obj\Debug\ODataReporter.dll
+C:\Users\robitaib\Documents\Source\Repos\ASP.Net_Forms_Sandbox\ODataReporter\obj\Debug\ODataReporter.pdb
+C:\Users\robitaib\Documents\Source\Repos\ASP.Net_Forms_Sandbox\ODataReporter\obj\Debug\ODataReporter.csprojResolveAssemblyReference.cache
