@@ -10,13 +10,26 @@
             font-weight: bold;
         }
     </style>
-    <div class="col-md-12" style="padding-bottom: 50px">
-        <button id="button1" type="button" class="btn, btn-primary" style="display: none;">Click to Start</button>
+     <section class="panel panel-default">
+        <header class="panel-heading">
+            <h3 class="panel-title">Description</h3>
+        </header>
+        <div class="panel-body">
+            <p>This page demonstrates the ability to accurately feed server side progress of a long running process back to the browser without a complete page refresh.  This technology can also be used
+                to create a custom chat feature.
+            </p>
+        </div>
+    </section>
+  
+       <div class="col-md-12" style="padding-bottom: 50px">
+        <button id="button1" type="button" class="btn, btn-primary btn-lg" style="display: none;">Click to Start Long Running Back-End Process</button>
         <div id="result" style="font-family: Tahoma; font-size: 0.9em; color: darkgray; display: none;">
             Initializing and Preparing...
         </div>
         <progress id="progressbar" class="col-md-6" value="0" max="100" style="display: none;"></progress>
     </div>
+    
+    
 
     <div id="Code">
 
