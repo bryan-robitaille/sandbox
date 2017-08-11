@@ -8,7 +8,7 @@
         </header>
         <div class="panel-body">
             <p>This page demonstrates the ability to translate both from English to French as well as French to English when focus is lost on a question box.
-                Current code is rudimentary however dispalys the possibilit of using google script API's in future applications to reduce on user input time.
+                Current code is rudimentary however displays the possibility of using google script API's in future applications to reduce user input time when doing internationalization.
                 The current code does not allow editing as a change in the test will launch a translation in it's partner box.  This will need to be a future enhancement.
             </p>
         </div>
