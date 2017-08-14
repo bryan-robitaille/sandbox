@@ -121,88 +121,19 @@
     <value>Breadcrumb trail</value>
   </data>
   <data name="AppName" xml:space="preserve">
-    <value>Development Forms</value>
+    <value>Bryan's Research Sandbox</value>
   </data>
   <data name="DateModified" xml:space="preserve">
     <value>Date modified:</value>
   </data>
-  <data name="Economy" xml:space="preserve">
-    <value>Economy</value>
-  </data>
-  <data name="EconomyLinkText" xml:space="preserve">
-    <value>actionplan.gc.ca</value>
-  </data>
-  <data name="EconomyLinkURL" xml:space="preserve">
-    <value>http://actionplan.gc.ca/en</value>
-  </data>
   <data name="Footer" xml:space="preserve">
     <value>Footer</value>
-  </data>
-  <data name="GovernmentOfCanada" xml:space="preserve">
-    <value>Government of Canada</value>
-  </data>
-  <data name="GovernmentOfCanadaDepartmentsLinkText" xml:space="preserve">
-    <value>Departments</value>
-  </data>
-  <data name="GovernmentOfCanadaDepartmentsLinkURL" xml:space="preserve">
-    <value>http://www.canada.gc.ca/aboutgov-ausujetgouv/depts/menu-eng.html</value>
-  </data>
-  <data name="GovernmentOfCanadaFooter" xml:space="preserve">
-    <value>Government of Canada footer</value>
-  </data>
-  <data name="GovernmentOfCanadaLinkText" xml:space="preserve">
-    <value>Canada.gc.ca</value>
-  </data>
-  <data name="GovernmentOfCanadaLinkURL" xml:space="preserve">
-    <value>http://www.canada.gc.ca/menu-eng.html</value>
-  </data>
-  <data name="GovernmentOfCanadaLogoObject" xml:space="preserve">
-    <value>&lt;object data="wet-boew/dist/theme-gcwu-fegc/images/sig-eng.svg" role="img" tabindex="-1" aria-label="Government of Canada" type="image/svg+xml"&gt;&lt;img src="wet-boew/dist/theme-gcwu-fegc/images/sig-eng.png" alt="Government of Canada" /&gt;&lt;/object&gt;</value>
-  </data>
-  <data name="GovernmentOfCanadaNavBar" xml:space="preserve">
-    <value>Government of Canada navigation bar</value>
-  </data>
-  <data name="Health" xml:space="preserve">
-    <value>Health</value>
-  </data>
-  <data name="HealthLinkText" xml:space="preserve">
-    <value>healthycanadians.gc.ca</value>
-  </data>
-  <data name="HealthLinkURL" xml:space="preserve">
-    <value>http://healthycanadians.gc.ca/index-eng.php</value>
-  </data>
-  <data name="Jobs" xml:space="preserve">
-    <value>Jobs</value>
-  </data>
-  <data name="JobsLinkText" xml:space="preserve">
-    <value>jobbank.gc.ca</value>
-  </data>
-  <data name="JobsLinkURL" xml:space="preserve">
-    <value>http://www.jobbank.gc.ca/intro-eng.aspx</value>
   </data>
   <data name="Search" xml:space="preserve">
     <value>Search</value>
   </data>
   <data name="SearchWebsite" xml:space="preserve">
     <value>Search website</value>
-  </data>
-  <data name="ServiceCanada" xml:space="preserve">
-    <value>Service Canada</value>
-  </data>
-  <data name="ServiceCanadaLinkText" xml:space="preserve">
-    <value>servicecanada.gc.ca</value>
-  </data>
-  <data name="ServiceCanadaLinkURL" xml:space="preserve">
-    <value>http://www.servicecanada.gc.ca/eng/home.shtml</value>
-  </data>
-  <data name="ServiceConfirmationForm" xml:space="preserve">
-    <value>Service Confirmation Form</value>
-  </data>
-  <data name="ServicesLinkText" xml:space="preserve">
-    <value>Services</value>
-  </data>
-  <data name="ServicesLinkURL" xml:space="preserve">
-    <value>http://www.servicecanada.gc.ca/eng/home.shtml</value>
   </data>
   <data name="SiteFooter" xml:space="preserve">
     <value>Site footer</value>
@@ -216,37 +147,7 @@
   <data name="SkipToMainContent" xml:space="preserve">
     <value>Skip to main content</value>
   </data>
-  <data name="SymbolOfTheGovernmentOfCanada" xml:space="preserve">
-    <value>Symbol of the Government of Canada</value>
-  </data>
-  <data name="TermsAndConditions" xml:space="preserve">
-    <value>Terms and conditions</value>
-  </data>
-  <data name="TermsAndConditionsLinkURL" xml:space="preserve">
-    <value>http://wet-boew.github.io/wet-boew/License-eng.html</value>
-  </data>
-  <data name="Transparency" xml:space="preserve">
-    <value>Transparency</value>
-  </data>
-  <data name="TransparencyLinkURL" xml:space="preserve">
-    <value>http://www.tbs-sct.gc.ca/pd-dp/index-eng.asp</value>
-  </data>
-  <data name="Travel" xml:space="preserve">
-    <value>Travel</value>
-  </data>
-  <data name="TravelLinkText" xml:space="preserve">
-    <value>travel.gc.ca</value>
-  </data>
-  <data name="TravelLinkURL" xml:space="preserve">
-    <value>http://www.voyage.gc.ca/index-eng.asp</value>
-  </data>
   <data name="LanguageSelection" xml:space="preserve">
-    <value>Language selection</value>
-  </data>
-  <data name="SiteSlogan" xml:space="preserve">
-    <value>Collaborative open source project led by the Government of Canada</value>
-  </data>
-  <data name="SSCExtranet" xml:space="preserve">
-    <value>&lt;abbr title="Shared Services Canada"&gt;SSC&lt;/abbr&gt; Extranet</value>
+    <value>Language Selection</value>
   </data>
 </root>

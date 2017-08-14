@@ -102,7 +102,7 @@
                         <li><a href="./Google_Translation_API.aspx">Google Translation API's</a></li>
                     </ul>
                      <ul class="list-inline menu">
-                        <li><a href="./ProgressBar_Test.aspx">Progress Bar Test</a></li>
+                        <li><a href="./ProgressBar_Test.aspx">Progress Bar for Long Processes</a></li>
                     </ul>
                 </div>
             </div>

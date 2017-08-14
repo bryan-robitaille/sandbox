@@ -1,6 +1,20 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Google_Map_API.aspx.cs" Inherits="Dev_Forms.Google_API" %>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
+    <div class="row">
+<section class="panel panel-default">
+        <header class="panel-heading">
+            <h3 class="panel-title">Description</h3>
+        </header>
+        <div class="panel-body">
+            <p>I'm sure we've all come across some point where we would like to constrain how addresse are entered into a dataset.  
+                If there is no single inventory of locations that support your department/business then why not leverage an existing 
+                data set from Google!  Auto complete search aids in the selection of location while the returned values are stored
+                within the application.
+            </p>
+        </div>
+    </section>
+    </div>
+    
     <div class="row" style="padding: 0 15px">
         <div class="form-horizontal" role="form" method="get" action="#">
             <input type="text" class="form-control" style="width: 400px" id="autocomplete" placeholder="Start typing address here" />
@@ -312,7 +326,7 @@
         }
         // [END region_geolocation]
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgTlK95MUNbdfw3qWRUE-TpZeVJnxQjhk&signed_in=true&libraries=places&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgTlK95MUNbdfw3qWRUE-TpZeVJnxQjhk&libraries=places&callback=initMap"
         async defer></script>
 
 </asp:Content>

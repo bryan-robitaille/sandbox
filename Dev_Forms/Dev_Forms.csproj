@@ -28,6 +28,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>AllFilesInTheProject</FilesToIncludeForPublish>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -260,6 +261,20 @@
     <Content Include="Scripts\respond.matchmedia.addListener.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="theme-wet-boew\assets\favicon-mobile.png" />
+    <Content Include="theme-wet-boew\assets\favicon.ico" />
+    <Content Include="theme-wet-boew\assets\logo.png" />
+    <Content Include="theme-wet-boew\assets\logo.svg" />
+    <Content Include="theme-wet-boew\css\ie8-theme.css" />
+    <Content Include="theme-wet-boew\css\ie8-theme.min.css" />
+    <Content Include="theme-wet-boew\css\ie8-wet-boew.css" />
+    <Content Include="theme-wet-boew\css\ie8-wet-boew.min.css" />
+    <Content Include="theme-wet-boew\css\theme.css" />
+    <Content Include="theme-wet-boew\css\theme.min.css" />
+    <Content Include="theme-wet-boew\css\wet-boew.css" />
+    <Content Include="theme-wet-boew\css\wet-boew.min.css" />
+    <Content Include="theme-wet-boew\Licence-fr.txt" />
+    <Content Include="theme-wet-boew\License-en.txt" />
     <Content Include="wet-boew\ajax\mobmenu-af.html" />
     <Content Include="wet-boew\ajax\mobmenu-ar.html" />
     <Content Include="wet-boew\ajax\mobmenu-bg.html" />
@@ -686,6 +701,7 @@
     <None Include="Project_Readme.html" />
     <Content Include="Site.Mobile.Master" />
     <Content Include="Scripts\jquery-2.2.0.min.map" />
+    <Content Include="theme-wet-boew\payload.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
